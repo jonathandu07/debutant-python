@@ -6,5 +6,3 @@ e = (4, 5, 6) # tuple
 f = {"nom": "Alice", "age": 25} # dict
 g = {1, 2, 3} # set
 h = True # bool
-
-print(a)
