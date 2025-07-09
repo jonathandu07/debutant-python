@@ -24,4 +24,3 @@ print("------------------------------------------------")
 # La puissance 
 print("Résultat de la puissance : 5 ** 3 = ",5**3) # Résultat : 1
 
-# Les opérateurs de comparaison 
