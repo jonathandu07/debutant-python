@@ -22,3 +22,7 @@ i = 3 < 5
 # Supérieur ou égal
 o = 5 >= 3
 p = 5 >= 5
+
+# inférieur ou égal
+q = 5 <= 3
+s = 5 <= 5
