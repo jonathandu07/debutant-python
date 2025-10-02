@@ -1,8 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  2 09:21:31 2025
-
-@author: alpha
+Les opérateurs d’affectation
 """
+# Affectation simple :
+x = 5
 
-1-operateurs-affectations
+x += 3
+
+x -= 3
+
+x *= 3
+
+x /= 3
+
+x //= 3
+
+x %= 3
+
+x **=3
