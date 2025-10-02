@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  2 09:47:27 2025
-
-@author: alpha
+Opérateurs d'identité
 """
 
+x = [1, 2, 3]
+y = x
+print(x)
+print(y)
+
+print(x is y)
+print(x is not y)
