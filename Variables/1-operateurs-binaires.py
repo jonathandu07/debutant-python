@@ -1,7 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  2 09:54:06 2025
-
-@author: alpha
+Opérateurs binaires
 """
 
+a = 5 & 3
+
+z = 5 | 3
+
+e = 5 ^ 3
+
+r = ~5
+
+t = 5 << 1
+
+y = 5 >> 1
