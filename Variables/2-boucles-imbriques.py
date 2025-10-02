@@ -1,7 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  2 10:56:10 2025
-
-@author: alpha
+Boucles imbriquées
 """
 
+matrice = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7,8, 9]
+    ]
+
+for ligne in matrice:
+    for element in ligne:
+        print(element, " ")
+    print()
