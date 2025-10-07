@@ -20,5 +20,5 @@ print(2 in mon_tuple)
 
 mon_tuple = (0,1, 2, 3, 4, 5)
 print(mon_tuple[2:5])
-x = 5
-print(mon_tuple[:x])
+
+print(mon_tuple[:5])
