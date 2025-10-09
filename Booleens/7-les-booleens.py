@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  9 16:23:51 2025
-
-@author: alpha
+Les booléens
 """
 
+print(True == 1)
+print(False == 0)
+
+print(bool(0))
+print(bool(42))
+print(bool(""))
+print(bool("Python"))
