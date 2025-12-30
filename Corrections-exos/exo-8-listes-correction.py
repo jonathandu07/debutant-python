@@ -1,11 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 30 19:10:49 2025
+# Création de la liste voyelles
+voyelles = ["a", "e", "i", "o", "u"]
 
-@author: alpha
-"""
-
-voyelles = ["a", "o", "u", "e", "y", "i"]
-
+# Parcours de la liste en utilisant enumerate()
 for index, voyelle in enumerate(voyelles):
-    print(f"indice {index} : {voyelle}")
+    print(f"Indice {index}: {voyelle}")
