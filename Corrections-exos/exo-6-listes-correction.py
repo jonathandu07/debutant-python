@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 30 17:46:03 2025
-
-@author: alpha
-"""
-
+# Création de la liste cubes en utilisant une compréhension de liste
 cubes = [i**3 for i in range(1, 11)]
+
+# Affichage de la liste cubes
+print("Liste des cubes de 1 à 10 :", cubes)
