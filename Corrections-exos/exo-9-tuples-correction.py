@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import time
 
-liste = list(range(1, 1000000001))
+liste = list(range(1, 1000001))
 
-tuple_ = tuple(range(1, 1000000001))
+tuple_ = tuple(range(1, 1000001))
 
 milieu = len(liste) // 2
 
