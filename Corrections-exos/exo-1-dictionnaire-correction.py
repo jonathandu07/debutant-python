@@ -1,15 +1,12 @@
-# Dictionnaire étudiant initial
+# Création du dictionnaire étudiant
 étudiant = {
     "nom": "Jean",
     "âge": 22,
     "cours": ["Math", "Physique", "Informatique"]
 }
 
-# Modification de l'âge de l'étudiant
-étudiant["âge"] = 23
+# Accès et affichage du nom de l'étudiant
+print("Nom de l'étudiant :", étudiant["nom"])
 
-# Ajout d'un nouveau cours à la liste des cours
-étudiant["cours"].append("Chimie")
-
-# Affichage du dictionnaire mis à jour
-print("Dictionnaire étudiant mis à jour :", étudiant)
+# Accès et affichage de la liste des cours
+print("Liste des cours :", étudiant["cours"])
