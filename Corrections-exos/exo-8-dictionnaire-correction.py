@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan  2 14:55:11 2026
+# Création des listes noms et ages
+noms = ["Alice", "Bob", "Charlie"]
+ages = [24, 27, 22]
 
-@author: alpha
-"""
+# Utilisation de zip() pour associer chaque nom à l'âge correspondant et création du dictionnaire
+etudiants = dict(zip(noms, ages))
 
+# Affichage du dictionnaire
+print("Dictionnaire des étudiants :", etudiants)
