@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan  2 17:13:08 2026
+# Création du dictionnaire carres en utilisant une compréhension de dictionnaire
+carres = {x: x**2 for x in range(1, 6)}
 
-@author: alpha
-"""
-
+# Affichage du dictionnaire
+print("Dictionnaire des carrés :", carres)
