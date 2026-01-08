@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  7 14:44:45 2026
+# Demande à l'utilisateur d'entrer son prénom
+prenom = input("Entrez votre prénom : ")
 
-@author: alpha
-"""
+# Demande à l'utilisateur d'entrer son nom
+nom = input("Entrez votre nom : ")
 
+# Affichage de la salutation personnalisée
+print(f"Bonjour, {prenom} {nom}!")
